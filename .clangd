@@ -1,0 +1,9 @@
+CompileFlags:
+  Add:
+    - "-Ic:/msys64/mingw64/include"
+    - "-Ic:/msys64/mingw64/include/SDL2"
+    - "-target"
+    - "x86_64-w64-mingw32"
+  Compiler:
+    clang
+  Path: c:/msys64/mingw64/bin/clang.exe
