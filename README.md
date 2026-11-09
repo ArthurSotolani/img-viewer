@@ -1,9 +1,12 @@
-# compile:
+# Sobre
+Abre uma imagem do tipo .ppm
+
+## compile:
 ```
 gcc -Wall -Wextra -g -o iv iv.c -lSDL2 -mconsole
 ```
 
-# run:
+## run:
 ```
 type image.ppm | iv.exe
 ```
